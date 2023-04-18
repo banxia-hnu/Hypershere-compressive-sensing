@@ -1,30 +1,3 @@
-
-% function derivative_of_TV = derivating_of_TV (image, size_images)
-
-%  This function calculates the derivative matrix of the original image.
-
-%   Inputs
-%   image: the original image.
-%   size_images: the size of the image.
-
-%   Outputs
-%   derivative_of_TV: the derivative matrix of the original image.
-
-%  For more details, please refer to the following paper.
-%  Bo Zhang, Di Xiao and Yong Xiang, "Robust coding of encrypted images via 2D
-%  compressed sensing," IEEE Transctions on Multimedia,2020, accepted.
-%  Originally written by Bo Zhang(email: zhangboswjtu@163.com), Army Engineering University. 
-
-% This program is free software; you can redistribute it and/or
-% modify it under the terms of the GNU General Public License
-% as published by the Free Software Foundation; either version 2
-% of the License, or (at your option) any later version.
-% 
-% This program is distributed in the hope that it will be useful,
-% but WITHOUT ANY WARRANTY; without even the implied warranty of
-% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-% GNU General Public License for more details.
-
 function derivative_of_TV = derivating_of_TV (image, size_images)
 
 
