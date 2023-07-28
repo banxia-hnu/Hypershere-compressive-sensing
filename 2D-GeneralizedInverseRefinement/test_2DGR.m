@@ -11,15 +11,17 @@ addpath('mywork');
 filename = 'lenna'; 
 filename = 'peppers';                         
 filename = 'barbara';                     
-% filename = 'goldhill';                        
-% filename = 'mandrill'; 
-original_filename = [ filename '.pgm']; 
+filename = 'goldhill';                        
+filename = 'fishingboat'; 
+filename = 'watch';
+%original_filename = [ filename '.pgm']; 
+original_filename = [ filename '.bmp']; 
 original_image = double(imread(original_filename));         
 [num_rows, num_cols] = size(original_image);    
 
 %  Parameters
-subrate = 0.1;
-C = 0.8;%0.8 %0.22 %0.15
+subrate = 0.5;
+C = 0.15;%0.8 %0.22 %0.15
 quantizer_bitdepth = 10;
 size_images = num_rows; 
 num_levels = 3;  

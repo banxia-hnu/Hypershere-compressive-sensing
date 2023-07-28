@@ -10,16 +10,19 @@ addpath('mywork');
 % test images
 filename = 'lenna';                                 
 % filename = 'peppers';                         
-% filename = 'barbara';                     
-% filename = 'goldhill';                        
+% filename = 'barbara';                                         
 % filename = 'mandrill';   
-original_filename = [ filename '.pgm'];   
+filename = 'goldhill';                        
+filename = 'fishingboat'; 
+filename = 'watch';
+%original_filename = [ filename '.pgm']; 
+original_filename = [ filename '.bmp'];  
 original_image = double(imread(original_filename));      
 [num_rows, num_cols] = size(original_image); 
 
 %  Parameters
-subrate = 0.5; 
-C = 0.8; %0.95
+subrate = 0.7; 
+C = 0.9; %0.95 %0.8
 size_images = num_rows;  
 block_size = 32;
 num_levels = 3;
